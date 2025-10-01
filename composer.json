@@ -1,0 +1,19 @@
+{
+    "name": "elayoubi/covoiturage",
+    "description": "Application de covoiturage interne en PHP (MVC)",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Elayoubi\\Covoiturage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nelybi",
+            "email": "nabilelayoubi75@gmail.com"
+        }
+    ],
+    "require": {
+        "izniburak/router": "^3.1"
+    }
+}
